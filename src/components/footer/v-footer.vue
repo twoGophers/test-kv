@@ -75,7 +75,7 @@ export default {
             margin-bottom: 2%;
             padding: 0.7%;
             background: #D5D7D8;
-            opacity: 80%;
+            //opacity: 80%;
             outline:none;
             margin: 1%;
        }
