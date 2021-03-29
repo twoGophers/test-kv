@@ -54,26 +54,9 @@ export default {
         vCatalogMainItem
     },
     methods: {
-        toggleFeatures () {
-            this.featuresOpen = !this.featuresOpen;
-        },
-        updateWidth() {
-            this.width = window.innerWidth;
-            if(window.innerWidth < 930) {
-                this.showItemCatalog = true;
-                this.showItemCatalog = { 'min-height': '80%'}
-            } else {
-                this.showItemCatalog = false;
-            }
+        toggleFeatures() {
+            console.log("+")
         }
-    },
-    beforeDestroy() {
-        window.removeEventListener('resize', this.updateWidth);
-
-    },
-    created() {
-        window.addEventListener('resize', this.updateWidth);
-        this.updateWidth();
     },
 }
 </script>

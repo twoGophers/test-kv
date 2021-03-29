@@ -5,7 +5,7 @@
             <p class="footerBottom">Квартиры от подрядчиков в Санкт-Петербурге и Ленинградской области</p>
         </div>
         <div class="v-footerBottom__center-content">
-            <a href=""> +7 (812) 309-50-99</a>
+            <a href=""> +7 (123) 123-45-67</a>
         </div>
         <div class="v-footerBottom__ringth-content">
             <p class="footerBottom"> создание сайта<a href="">AleksinSky</a></p>

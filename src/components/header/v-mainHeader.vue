@@ -74,10 +74,13 @@ export default {
   }
 }
 
-@media (max-width: 520px) and (min-width: 320px) {
+@media (max-width: 600px) and (min-width: 230px) {
   .v-mainHeader{
+    //display: flex;
     .mainHeader{
-      min-height: 50%;
+      //display: flex; 
+      height: 0px;
+      margin-bottom: 100%;
     }
   }
 }

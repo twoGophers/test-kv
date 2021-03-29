@@ -132,7 +132,6 @@
 <style lang="scss">
 
     .modal-shadow {
-        
         z-index: 100;
         position: absolute;
         top: 0;

@@ -18,7 +18,7 @@
                         <hr>
                         <p>Терминал партнера АПК — это сервис для профессионалов рынка недвижимости, позволяющий упростить работу и зарабатывать дополнительно до 50 000 руб. на каждой сделке. Наша цель — сделать работу риэлтора максимально комфортной и ПРИБЫЛЬНОЙ.</p>
                         <p>Среди наших сервисов есть база квартир с дисконтом, оценка недвижимости, страхование, электронная регистрация и другие.</p>
-                        <a  href="">Подробнее</a>
+                        <a class="ssylka"  href="">Подробнее</a>
                 </div>
             </div>
             <!--Паралакс-->
@@ -327,6 +327,22 @@ export default {
                 }
             }
         }
+    }
+}
+
+@media (max-width: 520px) and (min-width: 230px) {
+    .InstrumentRieltrContent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .v-mainContent__InstrumentRieltr .InstrumentRieltrContent a {
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        font-size: 0.9em;
     }
 }
 </style>
