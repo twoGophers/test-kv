@@ -266,7 +266,7 @@ export default {
         justify-content: center;
         align-items: center;
         background: rgb(255, 242, 97);
-        opacity: 90%;
+        opacity: 0.9;
         border-radius: 5px;
         img{
             width: 60%;

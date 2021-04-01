@@ -219,12 +219,12 @@ export default {
                             padding: 5%;
                             border-radius: 10px;
                             color: wheat;
-                            opacity: 80%;
+                            opacity: 0.8;
                             transition: 0.5s;
 
                             &:hover {
                                 transform: scale(1.2);
-                                opacity: 90%;
+                                opacity: 0.9;
                             }
                         }
                         .item {

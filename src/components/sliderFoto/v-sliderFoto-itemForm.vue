@@ -81,7 +81,7 @@ export default {
                 margin-bottom: 5%;
                 padding: 3%;
                 background: #D5D7D8;
-                opacity: 70%;
+                opacity: 0.7;
                 outline:none;
             }
         }

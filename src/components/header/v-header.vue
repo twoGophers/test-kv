@@ -431,7 +431,7 @@ export default {
         background: white;
         position: fixed;
         align-items: center;
-        opacity: 96%;
+        opacity: 0.96;
         height: 100%;
         z-index: 200;
         ul {
