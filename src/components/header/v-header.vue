@@ -6,44 +6,44 @@
     v-if="showHeader == true"
     :style="styleHeader"
     >
-        <div class="v-header__logo">
-            <div class="logoSpan">
-                <img  class="logoMin dark" src="../../assets/images/logo2.png" alt="" srcset="">
-                <span class="site-name">сервис для агентов</span>
-            </div>
-        </div>
-        <div class="v-header__navigation"
-        v-show="!showNavBar"
-        >
-            <ul>
-                <li><a class="navigation n1" href="">РИЭЛТОРАМ</a></li>
-                <li><a class="navigation n2" href="">ПРОДАВЦАМ</a></li>
-                <li><a class="navigation n3" href="">ТЕРМИНАЛ АГЕНТА</a></li>
-            </ul>
-        </div>
-
-            <div class="phoneBtn">
-                <div class="v-headerPhone">
-                    <a href="tel:+78123095099">+7 (812) 123-45-67</a>
+                <div class="v-header__logo">
+                    <div class="logoSpan">
+                        <img  class="logoMin dark" src="../../assets/images/logo2.png" alt="" srcset="">
+                        <span class="site-name">сервис для агентов</span>
+                    </div>
                 </div>
-                <div class="v-headerPtnMenu"
-                        v-show="showNavBar"
-                        >
-                        <div class="iconImg"
-                        v-if="showMenu == true"
-                        @click="showMenuBlock"
-                        >
-                            <img src="../../assets/images/close.png" alt="">
-                        </div>
-
-                        <div class="icon"
-                        v-else-if="showMenu == false"
-                        @click="showMenuBlock1"
-                        >
-                    <img src="../../assets/images/menu.png" alt="">
+                <div class="v-header__navigation"
+                v-show="!showNavBar"
+                >
+                    <ul>
+                        <li><a class="navigation n1" href="">РИЭЛТОРАМ</a></li>
+                        <li><a class="navigation n2" href="">ПРОДАВЦАМ</a></li>
+                        <li><a class="navigation n3" href="">ТЕРМИНАЛ АГЕНТА</a></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
+
+                <div class="phoneBtn">
+                    <div class="v-headerPhone">
+                        <a href="tel:+78123095099">+7 (812) 123-45-67</a>
+                    </div>
+                    <div class="v-headerPtnMenu"
+                            v-show="showNavBar"
+                            >
+                            <div class="iconImg"
+                                v-if="showMenu == true"
+                                @click="showMenuBlock"
+                            >
+                                <img src="../../assets/images/close.png" alt="">
+                            </div>
+
+                            <div class="icon"
+                                v-else-if="showMenu == false"
+                                @click="showMenuBlock1"
+                            >
+                                <img src="../../assets/images/menu.png" alt="">
+                            </div>
+                    </div>
+                </div>
     </div>
 
     <div class="v-modal-window"
@@ -273,7 +273,7 @@ export default {
             margin-top: 4%;
             width: 20%;
             margin-left: 2%;
-            margin-bottom: 10%;
+            margin-bottom: 5%;
             cursor: pointer;
 
             .icon {
@@ -396,7 +396,7 @@ export default {
             margin-top: 4%;
             width: 20%;
             margin-left: 2%;
-            margin-bottom: 10%;
+            margin-bottom: 5%;
             cursor: pointer;
 
             .icon {
@@ -473,6 +473,25 @@ export default {
         }
     }
 }
+
+@media (max-width: 1200px) and (min-width: 520px){
+.vHeader{
+        .v-header, .v-header1{
+            width: 100%;
+            .phoneBtn, .phoneBtn1{
+                width: 40%;
+                display: flex;
+                align-items: center;
+                .v-headerPhone, .v-headerPhone1{
+                    width: 80%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+
 
 @media (max-width: 520px) and (min-width: 320px) {
     .v-headerPhone1, .v-headerPhone{
