@@ -8,7 +8,7 @@
             <a href=""> +7 (123) 123-45-67</a>
         </div>
         <div class="v-footerBottom__ringth-content">
-            <p class="footerBottom"> создание сайта<a href="">AleksinSky</a></p>
+            <p class="footerBottom"> создание сайта<a href=""></a></p>
         </div>
     </div>
 </template>
