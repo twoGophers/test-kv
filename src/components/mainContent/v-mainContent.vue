@@ -1,4 +1,4 @@
-<template>
+c<template>
 
     <div class="v-mainContent">
         <!--Блок (Инструменты риэлтора)-->

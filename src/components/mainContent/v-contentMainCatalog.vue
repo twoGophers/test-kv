@@ -13,7 +13,7 @@
                         v-for="item in catalogItem"
                         :key="item.id"
                         :item_data="item"
-                        v-show="featuresOpen ? item.id < 4 : item.id < 7"
+                        v-show="item.id < 7"
                         :style="showItemCatalog"
                     >
                     </vCatalogMainItem>
@@ -55,7 +55,7 @@ export default {
     },
     methods: {
         toggleFeatures() {
-            console.log("+")
+            this.featuresOpen = !this.featuresOpen;
         }
     },
 }
